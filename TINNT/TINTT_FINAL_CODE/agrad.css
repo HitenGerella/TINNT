@@ -1,0 +1,385 @@
+/*header open*/
+/*logo*/
+.logo{
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    left: 675px;
+    top: 0px;
+}
+
+/*header*/
+.header{
+    position: absolute;
+    width: 100%;
+    height: 330%;
+    left: 0px;
+    top: 0px;
+    
+    margin-top: 0%;
+    margin-right: 0%;
+    margin-left: 0%;
+    margin-bottom: 0%;
+
+    background: linear-gradient(95.84deg, #FBA8A8 0%, #FFD56A 53.12%, #8FFF8C 100%);
+}
+
+/*title*/
+@font-face {
+    font-family: 'Righteous';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Righteous'), local('Righteous-Regular'), url(http://themes.googleusercontent.com/static/fonts/righteous/v2/w5P-SI7QJQSDqB3GziL8XaCWcynf_cDxXwCLxiixG1c.ttf) format('truetype');
+}
+
+.head{
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    left: 675px;
+    top: 125px;
+
+    font-family: 'Righteous';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 50px;
+    line-height: 81px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    color: #FCFDFF;
+
+    text-shadow: 5px 5px 0px #000000;
+}
+
+/*yellow button*/
+.select{
+    position: absolute;
+    width: 85px;
+    height: 30px;
+    left: 45px;
+    top: 230px;
+
+    background: #FDFFAD;
+    border-radius: 50px;
+}
+
+#eselect{
+        position: absolute;
+        width: 85px;
+        height: 30px;
+        left: 295px;
+        top: 230px;
+    
+        background: #FDFFAD;
+        border-radius: 50px;
+}
+
+#cselect{
+        position: absolute;
+        width: 85px;
+        height: 30px;
+        left: 592px;
+        top: 230px;
+    
+        background: #FDFFAD;
+        border-radius: 50px;
+}
+
+#gselect{
+        position: absolute;
+        width: 95px;
+        height: 30px;
+        left: 865px;
+        top: 230px;
+    
+        background: #FDFFAD;
+        border-radius: 50px;
+}
+
+#fselect{
+        position: absolute;
+        width: 110px;
+        height: 30px;
+        left: 1115px;
+        top: 230px;
+    
+        background: #FDFFAD;
+        border-radius: 50px;
+}
+
+/*tabs*/
+@font-face {
+    font-family: 'Comfortaa';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Comfortaa'), local('Comfortaa-Regular'), url(http://themes.googleusercontent.com/static/fonts/comfortaa/v4/qLBu5CQmSMt1H43OiWJ77aCWcynf_cDxXwCLxiixG1c.ttf) format('truetype');
+  }
+
+
+.home{
+
+position: absolute;
+width: 100px;
+height: 30px;
+left: 60px;
+top: 245px;
+
+font-family: 'Comfortaa';
+font-style: normal;
+font-weight: normal;
+font-size: 20px;
+line-height: 54px;
+display: flex;
+align-items: center;
+text-align: center;
+
+color: #000000;
+
+}
+
+#explore{
+
+position: absolute;
+width: 100px;
+height: 30px;
+left: 300px;
+top: 245px;
+
+font-family: 'Comfortaa';
+font-style: normal;
+font-weight: normal;
+font-size: 20px;
+line-height: 54px;
+display: flex;
+align-items: center;
+text-align: center;
+
+color: #000000;
+
+}
+
+#create{
+    position: absolute;
+width: 100px;
+height: 30px;
+left: 600px;
+top: 245px;
+
+font-family: Comfortaa;
+font-style: normal;
+font-weight: normal;
+font-size: 20px;
+line-height: 54px;
+display: flex;
+align-items: center;
+text-align: center;
+
+color: #000000;
+}
+
+#gradient{
+    position: absolute;
+width: 100px;
+height: 30px;
+left: 870px;
+top: 245px;
+
+font-family: Comfortaa;
+font-style: normal;
+font-weight: normal;
+font-size: 20px;
+line-height: 54px;
+display: flex;
+align-items: center;
+text-align: center;
+
+color: #000000;
+}
+
+#favourites{
+    position: absolute;
+width: 100px;
+height: 30px;
+left: 1120px;
+top: 245px;
+
+font-family: Comfortaa;
+font-style: normal;
+font-weight: normal;
+font-size: 20px;
+line-height: 54px;
+display: flex;
+align-items: center;
+text-align: center;
+
+color: #000000;
+}
+
+/*header close*/
+
+/*gradient page*/
+
+@font-face {
+    font-family: 'Helvetica Neue';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Helvetica Neue'), local('HelveticaNeue'), url(http://themes.googleusercontent.com/licensed/font?kit=Lx1xfUTR4qFjwg0Z_pb900DGSpWewu0sZH-jqLz8Q00) format('truetype');
+}
+
+.gtext{
+    position: absolute;
+width: 75%;
+height: 50%;
+left: 16.25%;
+top: 50%;
+
+font-family: 'Helvetica Neue';
+font-style: normal;
+font-weight: bold;
+font-size: 300%;
+line-height: 100%;
+display: flex;
+align-items: center;
+text-align: center;
+
+color: #000000;
+}
+
+.slider{
+    position: absolute;
+    width: 50%;
+    height: 75%;
+    left: 27.5%;
+    top: 65%;
+}
+
+.sselect{
+    position: absolute;
+    width: 25%;
+    height: 9%;
+    left: 33.75%;
+    top: 98%;
+}
+
+.numbers{
+    position: absolute;
+width: 50%;
+height: 75%;
+left: 19%;
+top: 71%;
+
+font-family: 'Helvetica Neue';
+font-style: normal;
+font-weight: bold;
+font-size: 300%;
+
+color: #000000;
+}
+
+@font-face {
+    font-family: 'Varela Round';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Varela Round'), local('VarelaRound-Regular'), url(http://themes.googleusercontent.com/static/fonts/varelaround/v3/APH4jr0uSos5wiut5cpjronF5uFdDttMLvmWuJdhhgs.ttf) format('truetype');
+}
+
+.twogtext{
+    position: absolute;
+    width: 50%;
+    height: 75%;
+    left: 30%;
+    top: 115%;
+
+font-family: 'Varela Round';
+font-style: normal;
+font-weight: normal;
+font-size: 275%;
+line-height: 50%;
+display: flex;
+align-items: center;
+text-align: center;
+
+color: #FFFFFF;
+
+text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.5);
+}
+
+#orienttext{
+    position: absolute;
+    width: 50%;
+    height: 50%;
+    left: 40%;
+    top: 155%;
+
+    font-family: 'Varela Round';
+font-style: normal;
+font-weight: normal;
+font-size: 200%;
+line-height: 50%;
+display: flex;
+align-items: center;
+text-align: center;
+
+color: #000000;
+}
+
+.arrow{
+    position: absolute;
+    width: 50%;
+    height: 75%;
+    left: 27.5%;
+    top: 165%;
+}
+
+.colorp{
+    position: absolute;
+    width: 25%;
+    height: 10%;
+    left: 20%;
+    top: 225%;
+}
+
+.colorp2{
+    position: absolute;
+    width: 25%;
+    height: 10%;
+    left: 60%;
+    top: 225%;
+}
+
+.colorp3{
+    position: absolute;
+    width: 25%;
+    height: 10%;
+    left: 40%;
+    top: 250%;
+}
+
+.generate{
+    position: absolute;
+    width: 25%;
+    height: 10%;
+    left: 40%;
+    top: 275%;
+}
+
+#downbutt{
+    position: absolute;
+    width: 25%;
+    height: 10%;
+    left: 40%;
+    top: 300%;
+}
+/*footer*/
+
+.footer{
+    position: absolute;
+    width: 100%;
+    height: auto;
+    left: 0%;
+    top: 330%;
+}
+
+/*footer close*/

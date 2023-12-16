@@ -1,0 +1,403 @@
+/*header open*/
+/*logo*/
+.logo{
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    left: 675px;
+    top: 0px;
+} 
+
+/*header*/
+.header{
+    position: absolute;
+    width: 100%;
+    height: 50%;
+    left: 0px;
+    top: 0px;
+    
+    margin-top: 0%;
+    margin-right: 0%;
+    margin-left: 0%;
+    margin-bottom: 0%;
+
+    background: linear-gradient(271.23deg, #C7A0F6 0.22%, #8CE6FD 100%);
+}
+
+/*title*/
+@font-face {
+    font-family: 'Righteous';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Righteous'), local('Righteous-Regular'), url(http://themes.googleusercontent.com/static/fonts/righteous/v2/w5P-SI7QJQSDqB3GziL8XaCWcynf_cDxXwCLxiixG1c.ttf) format('truetype');
+}
+
+.head{
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    left: 675px;
+    top: 125px;
+
+    font-family: 'Righteous';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 50px;
+    line-height: 81px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    color: #FCFDFF;
+
+    text-shadow: 5px 5px 0px #000000;
+}
+
+/*yellow button*/
+.select{
+    position: absolute;
+    width: 85px;
+    height: 30px;
+    left: 45px;
+    top: 230px;
+
+    background: #FDFFAD;
+    border-radius: 50px;
+}
+
+#eselect{
+        position: absolute;
+        width: 85px;
+        height: 30px;
+        left: 295px;
+        top: 230px;
+    
+        background: #FDFFAD;
+        border-radius: 50px;
+}
+
+#cselect{
+        position: absolute;
+        width: 85px;
+        height: 30px;
+        left: 592px;
+        top: 230px;
+    
+        background: #FDFFAD;
+        border-radius: 50px;
+}
+
+#gselect{
+        position: absolute;
+        width: 95px;
+        height: 30px;
+        left: 865px;
+        top: 230px;
+    
+        background: #FDFFAD;
+        border-radius: 50px;
+}
+
+#fselect{
+        position: absolute;
+        width: 110px;
+        height: 30px;
+        left: 1115px;
+        top: 230px;
+    
+        background: #FDFFAD;
+        border-radius: 50px;
+}
+
+/*tabs*/
+@font-face {
+    font-family: 'Comfortaa';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Comfortaa'), local('Comfortaa-Regular'), url(http://themes.googleusercontent.com/static/fonts/comfortaa/v4/qLBu5CQmSMt1H43OiWJ77aCWcynf_cDxXwCLxiixG1c.ttf) format('truetype');
+  }
+
+
+.home{
+
+position: absolute;
+width: 100px;
+height: 30px;
+left: 60px;
+top: 245px;
+
+font-family: 'Comfortaa';
+font-style: normal;
+font-weight: normal;
+font-size: 20px;
+line-height: 54px;
+display: flex;
+align-items: center;
+text-align: center;
+
+color: #000000;
+
+}
+
+#explore{
+
+position: absolute;
+width: 100px;
+height: 30px;
+left: 300px;
+top: 245px;
+
+font-family: 'Comfortaa';
+font-style: normal;
+font-weight: normal;
+font-size: 20px;
+line-height: 54px;
+display: flex;
+align-items: center;
+text-align: center;
+
+color: #000000;
+
+}
+
+#create{
+    position: absolute;
+width: 100px;
+height: 30px;
+left: 600px;
+top: 245px;
+
+font-family: Comfortaa;
+font-style: normal;
+font-weight: normal;
+font-size: 20px;
+line-height: 54px;
+display: flex;
+align-items: center;
+text-align: center;
+
+color: #000000;
+}
+
+#gradient{
+    position: absolute;
+width: 100px;
+height: 30px;
+left: 870px;
+top: 245px;
+
+font-family: Comfortaa;
+font-style: normal;
+font-weight: normal;
+font-size: 20px;
+line-height: 54px;
+display: flex;
+align-items: center;
+text-align: center;
+
+color: #000000;
+}
+
+#favourites{
+    position: absolute;
+width: 100px;
+height: 30px;
+left: 1120px;
+top: 245px;
+
+font-family: Comfortaa;
+font-style: normal;
+font-weight: normal;
+font-size: 20px;
+line-height: 54px;
+display: flex;
+align-items: center;
+text-align: center;
+
+color: #000000;
+}
+
+/*header close*/
+
+/*explore page open*/
+
+table{
+    position: absolute;
+    width: 100%;
+    height: 10%;
+    left: 0px;
+    top: 50%;
+    
+    background: #FDFFAD;
+    box-shadow: 4px 8px 4px rgba(0, 0, 0, 0.25);
+}
+
+#trending{
+    font-family: Comfortaa;
+font-style: normal;
+font-weight: normal;
+font-size: 20px;
+height: 10%;
+color: #000000;
+}
+
+#pastel{
+    font-family: Comfortaa;
+font-style: normal;
+font-weight: normal;
+font-size: 20px;
+height: 10%;
+color: #9F9F9F;
+}
+
+#neon{
+    font-family: Comfortaa;
+font-style: normal;
+font-weight: normal;
+font-size: 20px;
+display: flex;
+height: 10%;
+color: #9F9F9F;
+}
+
+#retro{
+    font-family: Comfortaa;
+font-style: normal;
+font-weight: normal;
+font-size: 20px;
+height: 10%;
+color: #9F9F9F;
+}
+
+#cool{
+    font-family: Comfortaa;
+font-style: normal;
+font-weight: normal;
+font-size: 20px;
+height: 10%;
+color: #9F9F9F;
+}
+
+#warm{
+    font-family: Comfortaa;
+font-style: normal;
+font-weight: normal;
+font-size: 20px;
+height: 10%;
+color: #9F9F9F;
+}
+
+/*tabs close*/
+
+/*tiles*/
+
+.tile-container{
+    display: flex;
+}
+
+.tile-container div{
+    margin: 20%;
+}
+
+#tile1{
+    position: absolute;
+    width: 25%;
+    height: 100%;
+    left: 5%;
+    top: 50%;
+}
+
+#tile2{
+    position: absolute;
+    width: 25%;
+    height: 100%;
+    left: 37.5%;
+    top: 50%;
+}
+
+#tile3{
+    position: absolute;
+    width: 25%;
+    height: 100%;
+    left: 70%;
+    top: 50%;
+}
+
+#tile4{
+    position: absolute;
+    width: 25%;
+    height: 100%;
+    left: 5%;
+    top: 120%;
+}
+
+#tile5{
+    position: absolute;
+    width: 25%;
+    height: 100%;
+    left: 37.5%;
+    top: 120%;
+}
+
+#tile6{
+    position: absolute;
+    width: 25%;
+    height: 100%;
+    left: 70%;
+    top: 120%;
+}
+
+#tile7{
+    position: absolute;
+    width: 25%;
+    height: 100%;
+    left: 5%;
+    top: 190%;
+}
+
+#tile8{
+    position: absolute;
+    width: 25%;
+    height: 100%;
+    left: 37.5%;
+    top: 190%;
+}
+
+#tile9{
+    position: absolute;
+    width: 25%;
+    height: 100%;
+    left: 70%;
+    top: 190%;
+}
+
+#fav{
+   
+}
+
+#fav2{
+    
+}
+
+#fav3{
+    
+}
+
+/*footer*/
+
+.footer{
+    position: absolute;
+    width: 100%;
+    height: auto;
+    left: 0%;
+    top: 300%;
+}
+
+/*footer close*/
+/* .top{
+    margin-top: -60vh;
+} */
+.top {
+    margin-top: -5vh;
+    margin-left: 205vh;
+}
